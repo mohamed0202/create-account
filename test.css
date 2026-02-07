@@ -1,0 +1,20 @@
+@keyframes movie{
+    0%{transform: translateX(0);}
+
+    50%{
+      transform: translateY(-20px) ;
+        
+    }
+    75%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.fly{
+    position:absolute;
+    left: 40%;
+    top:10%;
+    animation: movie 2s infinite linear alternate-reverse;
+}
